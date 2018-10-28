@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   authButton() {
@@ -25,4 +25,4 @@ class Header extends Component {
   }
 }
 
-export default Header
+export default Header;
